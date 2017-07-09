@@ -1,0 +1,9 @@
+.Footer {
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center; }
+  .Footer-tmdbLogo {
+    width: 150px;
+    margin: auto; }
+  .Footer-itme {
+    color: #999; }

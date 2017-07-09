@@ -1,0 +1,25 @@
+.Person {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .Person:hover {
+    background: #eee;
+    cursor: pointer;
+    opacity: 1; }
+  .Person:active {
+    background: #ccc; }
+  .Person--inactive {
+    opacity: .5; }
+  .Person-image {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    font-size: 25px; }
+  .Person-name {
+    flex-grow: 1; }

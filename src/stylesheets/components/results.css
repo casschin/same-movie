@@ -1,0 +1,20 @@
+.Results {
+  padding: 15px; }
+  .Results-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    @media (max-width: 768px) {
+      .Results-wrapper {
+        justify-content: space-between; } }
+  .Results-emptyState {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 80px 15px;
+    text-align: center; }
+  .Results-emptyStateHeader {
+    margin-bottom: 30px;
+    font-size: 30px; }
+  .Results-emptyStateSubheader {
+    font-size: 20px; }

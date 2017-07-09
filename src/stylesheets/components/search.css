@@ -1,0 +1,40 @@
+.Search {
+  border-right: 1px solid #ccc;
+  min-width: 320px; }
+  @media (max-width: 768px) {
+    .Search {
+      border-width: 0; } }
+  .Search-container {
+    padding: 15px 0; }
+  .Search-inputWrapper {
+    padding: 10px;
+    background: #eee;
+    display: flex;
+    border-bottom: 1px solid #ccc; }
+  .Search-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #ccc; }
+  .Search-sectionHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px; }
+  .Search-sectionHeader {
+    margin: 0 10px 5px 10px; }
+  .Search-section {
+    margin-bottom: 15px; }
+  .Search-searching {
+    margin: 30px 0;
+    text-align: center; }
+  .Search-clearAll {
+    color: #999;
+    cursor: pointer;
+    font-size: 14px; }
+  .Search-showMore {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    text-align: center; }
