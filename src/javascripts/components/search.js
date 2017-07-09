@@ -33,10 +33,11 @@ class Search extends Component {
 
   componentWillUpdate(nextProps) {
     const { selectedPeople } = nextProps;
+    const path = window.location.pathname;
     const searchQuery =
       selectedPeople.length === 0
-        ? "/"
-        : `?aid=${selectedPeople.map(sp => sp.id).join(",")}`;
+        ? `${path}`
+        : `${path}?aid=${selectedPeople.map(sp => sp.id).join(",")}`;
     window.history.replaceState(null, null, searchQuery);
   }
 
