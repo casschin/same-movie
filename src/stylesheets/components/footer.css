@@ -4,6 +4,7 @@
   text-align: center; }
   .Footer-tmdbLogo {
     width: 150px;
-    margin: auto; }
-  .Footer-itme {
-    color: #999; }
+    margin: auto;
+    margin-bottom: 10px; }
+  .Footer-itMe {
+    text-decoration: none; }

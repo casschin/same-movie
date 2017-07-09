@@ -1,8 +1,8 @@
 {
-  "name": "actor-search",
+  "name": "same-movie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://casschin.github.io/same-actor",
+  "homepage": "https://casschin.github.io/same-movie",
   "dependencies": {
     "axios": "^0.16.1",
     "classnames": "^2.2.5",
