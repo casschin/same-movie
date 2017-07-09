@@ -35,7 +35,7 @@ class Results extends Component {
           Search for some people to see if they worked together on a movie.
         </h2>
         <h3 className="Results-emptyStateSubheader">
-          (like <a href="/?aid=380,1032">De Niro and Scorsese</a>)
+          (like <a href="./?aid=380,1032">De Niro and Scorsese</a>)
         </h3>
       </div>
     );
