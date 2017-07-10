@@ -21,7 +21,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         href="https://github.com/casschin/same-movie"
       >
-        Cass Chindusties 2017
+        Cass Chindustries 2017
       </a>
     </footer>
   );
