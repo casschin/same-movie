@@ -30,7 +30,7 @@ const Movie = ({ imagePath, title, id, releaseDate }) => {
       rel="noopener noreferrer"
     >
       {poster(imagePath, title)}
-      <h4 className="Movie-title strong">{id} - {title}</h4>
+      <h4 className="Movie-title strong">{title}</h4>
       <span className="Movie-releaseDate">
         ({releaseDate ? moment(releaseDate).format("YYYY") : "N/A"})
       </span>
